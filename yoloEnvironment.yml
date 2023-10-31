@@ -1,0 +1,19 @@
+name: yoloEnv
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython
+  - pytorch
+  - pytorch-cuda=11.8
+  - pillow
+  - pip
+  - torchvision
+  - pip:
+      - matplotlib
+      - tensorboard
+      - tensorboardX
+      - tqdm
+      - ultralytics
